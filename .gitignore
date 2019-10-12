@@ -144,4 +144,5 @@ pip-selfcheck.json
 # Name of your virtuan env
 .vEnv
 *pyc
+.env
 # End of https://www.gitignore.io/api/venv,django

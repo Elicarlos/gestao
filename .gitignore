@@ -137,5 +137,11 @@ ENV/
 env.bak/
 venv.bak/
 pip-selfcheck.json
-
+# See the name for you IDE
+.idea
+# If you are using sqlite3
+*.sqlite3
+# Name of your virtuan env
+.vEnv
+*pyc
 # End of https://www.gitignore.io/api/venv,django

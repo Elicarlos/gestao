@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'gestao_clientes.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+# instalar pip install psycopg2
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

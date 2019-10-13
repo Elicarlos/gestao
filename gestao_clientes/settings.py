@@ -140,12 +140,15 @@ MEDIA_ROOT = 'media'
 LOGIN_URL = '/login/'
 
 LOGIN_REDIRECT_URL = 'persons_list'
+#Sugestao Heroku
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Cria pasta para gravar arquivos staticos
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
